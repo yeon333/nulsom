@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>늘솜 study file</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="../index.html">늘솜 title test</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="../learn.html">웹 내용</a></li>
+								<li><a href="../olearn.html">추가수업</a></li>
+								<li><a href="../participant.html">부원 소개</a></li>
+								<!--<li><a href="#">Tempus</a></li>
+								<li><a href="#">Adipiscing</a></li>-->
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+							</ul>
+						</nav>
+					</header>
+					<div id="main">
+					<p align="center"><font size="30"> &#60table&#62 태그배우기</font> </p>
+					 <font size="15">표를만드는태그</font><br>&#60table&#62안에  &#60tr&#62 &#60td&#62 등을 써서 사용한다.
+					 <br>&#60tr&#62 열, &#60td&#62 행을 나타낸다
+					 <p><strong>사용법</strong> </p>
+					<table border="20" width="300" height="300">
+					 <td>&#60table border&#61;&#34;1&#34&#62
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>내용1&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>내용2&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>내용3&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>내용4&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>내용5&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>내용6&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&#60/table&#62</p></td>
+					 </table>
+					 
+					 <pre>
+					 
+					 
+					<font size="15"> 출력물</font>
+					</pre>
+					<table border="1" height="50">
+					<tr>
+								<td>내용1</td>
+								<td>내용2</td>
+							</tr>
+							<tr>
+								<td>내용3</td>
+								<td>내용4</td>
+							</tr>
+							<tr>
+								<td>내용4</td>
+								<td>내용5</td>
+							</tr>
+					</table>
+					<hr size="5">
+					<pre> 
+					&#60table&#62 태그와 함께 사용될수 있는 속성은 다음과 같습니다
+
+					<b>table 속성:colspan,rowspan</b>
+
+					1.colspan:column span 약자로&#44;셀&#60가로줄&#62을 합치는 개수를 지정</pre>
+					<strong>사용예&#58;</strong>
+					<table border="20" width="300" height="300">
+					<td>&#60table border&#61;&#34;1&#34&#62
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&#60;td colspan&#61;&#34;2&#34;&#62; 3-3반&#60;/td&#62;</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>1&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>짱구&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>2&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>짱아&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&#60/table&#62</p></td>
+					</table>
+					 <pre>
+					 
+					<font size="15">출력물</font>
+					 <table border="1" height="50">
+					<tr>
+								<td colspan="2">3-3반</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>짱구</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>짱아</td> 
+							</tr>
+								
+					</table>
+					<hr size="5">
+					</pre>
+					2 rowspan&#61; rowspan이란 뜻으로 &#40;셀&#41;을 합치는 개수를 지정
+					<p><strong>사용예&#58;</strong></p>
+					<table border="20" width="300" height="300">
+					<td>&#60table border&#61;&#34;1&#34&#62
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&#60;td rowpan&#61;&#34;3&#34;&#62; 3-3반&#60;/td&#62;</p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>1&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>짱구&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60tr&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>2&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60td>짱아&#60/td&#62</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#60/tr&#62</p>
+					<p>&#60/table&#62</p></td>
+					</table>
+					 
+					 <pre>
+					 
+					<font size="15">출력물</font>
+					 <table border="1" height="50">
+					        <tr>
+								<td rowpan="3">3-3반</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>짱구</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>짱아</td> 
+							</tr>
+								
+					</table>
+					<hr size="5">
+					</pre>
+					
+					<!-- floor -->
+						</br></br><hr>
+						<div style="float:right">
+							<ul class="actions">
+								<li><a href="../learn.html" class="button big next">목록</a></li>
+							</ul>
+						</div>
+						<div style="float:left">
+							<ul class="actions">
+									<li><a href="http://cafe.naver.com/neulsomclub" class="button">동아리 카페</a></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.mine.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

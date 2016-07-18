@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>늘솜 study file</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="#">늘솜 title test</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#">웹 내용</a></li>
+								<li><a href="#">추가수업</a></li>
+								<li><a href="#">부원 소개</a></li>
+								<!--<li><a href="#">Tempus</a></li>
+								<li><a href="#">Adipiscing</a></li>-->
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+							</ul>
+						</nav>
+					</header>
+				<div id="main">
+					<!--Html 설명들어가기 -->
+					<center> <h1><br> 오늘은 FORM TAG에 대해 배워보겠습니다!</br></h1></center>
+					<br> &#60form&#62이란 사용자의 입력을 위한 HTML폼을 정의할때 사용되어 집니다. </br>
+					<br>좀 더 자세히 들어가 볼까요? </br>
+
+
+				<hr size="4" color="black" width="2000">
+
+					<li> 먼저 우리가 만들 Html을 위해 FORM TAG의 종류에 대해서 알아둬야 겠죠?</li>
+					<li> accept-charset,action,enctype,method,name,target과 같은 종류가 있다.</li>
+					<li> 태그의 기본구조는 예시로 </li>
+					<p>&#60form&#62</p>
+					<p>입력요소</p>
+					<p>&#60/form&#62</p>
+					<p>이렇게 기본틀을 만들수잇다.
+					<br></br>
+
+					<p>수업시간에 우리는 method와action을 배웠는데 오늘 이시간에는 이것들 위주로 할거예요!</p>
+
+					<li> &#60form method="getIpost"&#62</li>
+
+					<p> method속성은 from데이터 전송시에 http메소드를 지정하여 주고, 데이터 전송시 사용되는 http메소는 post와 get이 있습니다.</p>
+
+					<li>get방식</li>
+
+					<p> 1.이름과 값을 가지는 한쌍의 형식으로 url에 데이터를 추가</p>
+					<p> 2.url길이는 약 3,000자로 제한되어진다</p>
+					<p> 3.url에서 데이터가 바로 보여짐</p>
+
+					<li>post방식</li>
+					
+					<p> 1.데이터 길에에 제한이 없음</p>
+					<p> 2.url에서 데이터가 보이지않음</p>
+
+					<p></p>
+					<p></p>
+					<p> get방식을 사용할 때에는 보안이 중요 하지 않거나 노출되어 상관 없는 데이터를 보낼때에 사용되어지고,</p>
+					<p> post방식은 중요한 데이터를 보낼때나 노출되어져서는 안되는 데이터를 전송시 사용합니다. </p>
+
+					<p> 보안상으로 보자면 post방식을 이용하여 코딩하는 것이 좋지만 개발 상황에 따라 get방식도 많이 사용합니다.</p>
+					<p> form태그에서 method방식을 지정하지 않을경우 기본값으로 get방식이 지정되니 이점을 주의 해야 해요. </p>
+
+				<hr size="4" color="black" width="2000">
+
+
+
+
+
+					<br> 다음은 FORM TAG - ACTION 태그에 대해서 배워볼거예요!</br>
+
+					<li> &#60form action="url"&#62</li>
+
+					<p> action속성은 from데이터들이 전송되어지면 어느 페이지에 결과를 뿌려줄지 결정해주는 역할을 해준답니다! </p>
+					
+					
+					<li> a.html 페이지 </li>
+					<li> b.html 페이지 </li>
+
+					<p> 이 두 웹 페이지가 있으면 url에 각각 다른이름을 써넣음으로써 각각 다른 페이지에 다른 결과를 부여하는 것이죠 </p>
+
+					<hr size="2" color="black" width="2000">
+					
+					<li> a.html의 경우 </li>
+
+					<p> &#60form action="a.html"&#62 </p>
+					<p> &#60input type="text" name="soso" value="todos"&#62&#60/form&#62</p> 
+
+				<li> b.html의 경우 </li>
+
+					<p> &#60form action="b.html"&#62 </p>
+					<p> &#60input type="text" name="soso" value="todos"&#62&#60/form&#62</p> 
+					
+					<hr size="2" color="black" width="2000">
+
+					<p> 이처럼 type이 text인 soso라는 이름을 가진 input태그는 from 전송시 "todos"라는 값을 보냅니다. </p>
+					<p> 하지만 각각 action 값을 다르게 지정했죠?!
+					<p> 첫번째 form에서 전송되어진 "todos"라는 값은 action 속성에서 지정한데로 a.html페이지로 전송되어지고 </p>
+					<p> 두번째 form에서 전송되어진 "todos"라는 값은 b.html페이지로 전송되어집니다~ </p> 
+
+					<p> 이상 form 태그 설명이였습니다~
+					
+					<!-- floor -->
+						</br></br><hr>
+						<div style="float:right">
+							<ul class="actions">
+								<li><a href="../learn.html" class="button big next">목록</a></li>
+							</ul>
+						</div>
+						<div style="float:left">
+							<ul class="actions">
+									<li><a href="http://cafe.naver.com/neulsomclub" class="button">동아리 카페</a></li>
+							</ul>
+						</div>
+			</div>
+				
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
